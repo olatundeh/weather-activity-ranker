@@ -1,0 +1,18 @@
+{
+  "name": "weather-activity-ranker-server",
+  "version": "1.0.0",
+  "description": "GraphQL API for weather-based activity ranking",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "graphql": "^16.9.0",
+    "node-fetch": "^3.3.2"
+  }
+}
